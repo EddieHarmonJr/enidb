@@ -13,10 +13,10 @@ html, body {
 .logoName {
     font-size: 25px;
 }
-.logoNameFSWD {
-    color: red;
-}
 
+.nav {
+  background-color: green;
+}
 .navbar {
   padding: .8rem;
 }
@@ -61,8 +61,8 @@ html, body {
 }
 
 .btn-primary {
-  background-color: #6648b1;
-  border: 1px solid #6648b1;
+  background-color: #eb6d20;
+  border: 1px solid #fcfcfc;
 }
 
 .btn-primary:hover {
@@ -99,19 +99,19 @@ html, body {
   /* #b4b4b4 is like a light gray color */
 }
 
-.fa-code {
+.fa-hand-holding-heart{
   color: #e54d26;
 }
 
-.fa-bold {
-  color: #563d7c;
+.fa-sync {
+  color: black;
 }
 
-.fa-css3 {
-  color: #2163af;
+.fa-leaf {
+  color: green;
 }
 
-.fa-code, .fa-bold, .fa-css3 {
+.fa-hand-holding-heart, .fa-sync, .fa-leaf {
   font-size: 4em;
   margin: 1rem;
   /* the font size increases the sizes of the logos themselves */
@@ -145,13 +145,14 @@ html, body {
   color: #dd4b39
 }
 
-fa.instagram {
-color: #517fa8;
-} */
 
 /* .fa-youtube {
   color: #bb0000;
 } */
+
+.fa-instagram {
+  color: pink;
+}
 
 .fa-linkedin {
     color: #0077B5;
@@ -168,7 +169,7 @@ color: #517fa8;
 .fa-facebook:hover,
 .fa-twitter:hover,
 .fa-envelope:hover,
-.fa-github:hover,
+.fa-instagram:hover,
 .fa-linkedin:hover {
   color: #d5d5d5;
   /* this takes all the social media icons and adds a shading upon hover. */
@@ -216,6 +217,7 @@ hr.light-100 {
   
   .carousel-caption h1 {
     font-size: 350%;
+    /* font-family: 'Sacramento', cursive; */
   }
   
   .carousel-caption h3 {
@@ -231,6 +233,7 @@ hr.light-100 {
 
   .display-4 {
     font-size: 200%;
+    font-family: 'Great Vibes', cursive;
   }
 
   social a {
@@ -298,7 +301,7 @@ figure {
 #fixed {
   /* this is the "hidden image that is in the background of the site" */
   /* this is done by making a div and setting the background image of the div */
-  background-image: url('img/codingSnippetBokeh.jpg');
+  background-image: url('img/BloomingRose.JPG');
   position: fixed;
   display: block;
   top: 0;
