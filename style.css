@@ -182,6 +182,52 @@ footer {
   padding-top: 2rem;
 }
 
+/* .pictureFrame {
+  display: block; 
+   margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    width: 39.6%;
+    left: 0;
+    right: 0;
+} */
+
+/* .grandmaPhoto {
+  display: block;
+    margin-left: 72.5px;
+    margin-right: auto;
+    width: 28%;
+    margin-top: 75px;
+    z-index: -1;
+} */
+
+/* .inner {
+  position: absolute;
+} */
+
+/* .outer {
+  margin: auto;
+    width: 50%;
+    padding: 10px;
+} */
+
+.storyHeadline {
+  text-align: center;
+}
+
+.story {
+  text-align: center;
+  /* font-family: 'Pinyon Script', cursive; */
+  /* font-family: 'Pinyon Script', cursive; */
+}
+
+.splitter {
+  border-top: 1px solid #3f3f3f;
+  width: 75%;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
 hr.light {
   border-top: 1px solid #d5d5d5;
   width: 75%;
@@ -200,6 +246,11 @@ hr.light-100 {
   margin-top: .8rem;
   margin-bottom: 1rem;
 /* this makes the last horizontal line go across the width of the screen */
+}
+
+.video-fluid {
+  width: 100%;
+  height: auto;
 }
 
 
